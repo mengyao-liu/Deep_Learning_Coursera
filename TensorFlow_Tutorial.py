@@ -442,6 +442,9 @@ print ("Y_train shape: " + str(Y_train.shape))
 print ("X_test shape: " + str(X_test.shape))
 print ("Y_test shape: " + str(Y_test.shape))
 
+parameters = model(X_train, Y_train, X_test, Y_test)
+
+
 ## Test with your own image
 import scipy
 from PIL import Image
